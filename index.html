@@ -4,76 +4,88 @@
 
 <head>
 	<meta charset="utf-8">
-
-	<title>Sprint Challenge - Home</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to BloomTech Bar and Grill!!!!</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link rel = "stylesheet" href = "css/index.css" />
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel= "stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
-	<div>
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
+				<a href = "index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				
+				<nav>
+					<div style = "float:right;">
+						<a href="menu.html">Menu</a>
+						<a href="#">Reservations</a>
+						<a href="#">Special Offers</a>
+						<a href="#">Contact</a>
+					</div>
+
+					<div>
+						<i class="fa-brands fa-facebook"></i>
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-instagram"></i>
+					</div>
+				</nav> 
 			</div>
 		</header>
 
 		<!-- gallery section -->
-		<section class="gallery">
+		<section class = "gallery">
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<img src = "img/food-avocadotoast.jpg" alt = "avocado toast" />
 
-				img/food-burger.jpg
+				<img src = "img/food-burger.jpg" alt = "burger" />
 
-				img/food-poutine.jpg
+				<img src = "img/food-poutine.jpg" alt = "poutine" />
 
-				img/food-ribs.jpg
+				<img src = "img/food-ribs.jpg" alt = "ribs" />
 
-				img/food-sandwich.jpg
+				<img src = "img/food-sandwich.jpg" alt = "sandwich" />
 
-				img/food-sausage.jpg
+				<img src = "img/food-sausage.jpg" alt = "sausage" />
 
-				img/food-steak.jpg
+				<img src = "img/food-steak.jpg" alt = "steak" />
 
-				img/food-tacos.jpg
+				<img src = "img/food-tacos.jpg" alt = "tacos" />
 
-				img/food-wings.jpg
+				<img src = "img/food-wings.jpg" alt = "wings" />
 			</div>
 		</section>
 
 		<!-- spacer -->
-		<div class="spacer"></div>
+		<div class = "spacer"></div>
 
 		<!-- about section -->
-		<section class="about">
-			<div class="about-container">
+		<section class = "about">
+			<div class = "about-container">
 				<h2>ABOUT US</h2>
 
 				<div id="cooks" class="pic">
+					
 				</div>
 
-				<div class="text">
+				<div class = "text">
 					<h3>Good Food, Great People</h3>
 					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
 						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
 						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
 						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
+						dolore short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
 						shankle duis chicken dolore andouille do tenderloin qui.</p>
 				</div>
 
 				<div id="bartender" class="pic">
+                  
 				</div>
 			</div>
 		</section>
@@ -82,18 +94,14 @@
 		<div class="spacer"></div>
 
 		<!-- contact section -->
-		<section class="contact">
+		<section class = "contact">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
 
 				<div class="info">
 					<div class="address">
 						<h3>Address</h3>
-
-						<address>
-							<p>100 Main St</p>
-							<p>San Francisco, CA</p>
-						</address>
+                 <address>100 Main St<br>San Francisco, CA</address>
 					</div>
 
 					<div class="hours">
@@ -125,15 +133,22 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<h4>Join our mailing list!</h4>
+			<form>
+				<label for = "Email Address"></label>
+				<input type = "text" id = "Email Address" name = "Email Address" placeholder="Email Address">
+				<button>Sign Up!</button>
+			</form>
+			
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+			<a href = "menu.html">Menu</a>
+			<a href = "reservations.html">Reservations</a>
+			<a href = "specialoffers.html">Special Offers</a>
+			<a href = "contact.html">Contact</a>
+			</nav>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
 		</footer>
 	</div>
 </body>

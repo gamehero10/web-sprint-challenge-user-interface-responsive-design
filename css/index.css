@@ -69,6 +69,8 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    color: white;
+    text-align: center;
 }
 
 h2 {
@@ -83,6 +85,17 @@ p, a {
     font-size: 3rem;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 /* header section */
 header {
     width: 100%;
@@ -91,6 +104,21 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+}
+
+header a {
+    color: white;
+    padding-right: 300px;
+   }
+
+header i {
+    color: white;
+    font-size: 50px;
+    margin-right: 4px;
+    position: relative;
+    top: 30px;
+    display: inline-block;
 }
 
 /* spacers */
@@ -111,7 +139,8 @@ header {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
-}
+    color: white;
+   }
 
 /* about us section */
 .about {
@@ -135,10 +164,13 @@ header {
 
 .about h2 {
     width: 100%;
+    color: white;
+
 }
 
 .about-container .text {
     width: 50%;
+    color: white;
 }
 
 /* contact us section */
@@ -149,51 +181,89 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color: white;
 }
 
 .contact-container {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 4, 17, .8);
+    
 }
 
 .contact h2 {
     padding-top: 5vh;
+    color: white;
 }
 
 .contact h3 {
     padding-top: 2.5vh;
+    color: white;
 }
 
 .contact p {
     padding: .5vh 0;
+    color: white;
+}
+
+.contact a {
+    color: white;
 }
 
 .info {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 .address {
     width: 25%;
+    font-size: 50px;
+    color: white;
 }
 
 .hours {
     width: 25%;
     padding-bottom: 2.5vh;
+    color: white;
 }
 
 .contacts {
     width: 25%;
+    color: white;
 }
 
 /* footer section */
 footer {
     width: 100%;
     height: 15vh;
-    padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+    
+}
+
+footer h4 {
+    color: white;
+}
+
+footer a {
+    padding-left: 300px;
+    color: white;
+}
+
+footer input {
+    padding: 5px 0;
+}
+
+footer button {
+    padding: 5px 0;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 /* mobile media query */
@@ -250,4 +320,12 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+}
+
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 428px) {
+    
 }
